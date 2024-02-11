@@ -1,4 +1,4 @@
-# [in Preparation] sound_service_client
+# Sound_service_client
 ROS package to make beep sound using service/client
 
 # Usage
