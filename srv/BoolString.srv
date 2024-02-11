@@ -1,0 +1,4 @@
+bool data
+string comment
+---
+bool success
