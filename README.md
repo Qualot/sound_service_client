@@ -2,10 +2,24 @@
 ROS package to make beep sound using service/client
 
 # Usage
-Download .wav files
+## Download .wav files
 ```
 $rosrun sound_service_client download_wav.sh
 ```
+## Start server
+```
+$rosrun sound_service_client sound_play_class_server.py 
+```
+## Start client from another terminal
+Normal sound
+```
+$rosservice call /sound_play False "message"
+```
+Special sound
+```
+$rosservice call /sound_play True "message"
+```
+
 
 # Sound file reference
 ## ザ・マッチメイカァズ (Japanese)
