@@ -2,7 +2,7 @@
 ROS package to make beep sound using service/client
 
 # Usage
-## Download .wav files
+## Download .wav files and to overwrite the dummy ones
 ```
 $rosrun sound_service_client download_wav.sh
 ```
