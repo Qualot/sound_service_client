@@ -4,20 +4,20 @@ ROS package to make beep sound using service/client
 # Usage
 ## Download .wav files and to overwrite the dummy ones
 ```
-$rosrun sound_service_client download_wav.sh
+rosrun sound_service_client download_wav.sh
 ```
 ## Start server
 ```
-$rosrun sound_service_client sound_play_class_server.py 
+rosrun sound_service_client sound_play_class_server.py 
 ```
 ## Start client from another terminal
 Normal sound
 ```
-$rosservice call /sound_play False "message"
+rosservice call /sound_play False "message"
 ```
 Special sound
 ```
-$rosservice call /sound_play True "message"
+rosservice call /sound_play True "message"
 ```
 
 
